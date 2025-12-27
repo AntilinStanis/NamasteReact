@@ -24,7 +24,7 @@ test('Should load 3 input boxes', () => {
    render(<Contact />);
 
    const inputBoxes = screen.getAllByRole("textbox");
-   console.log(inputBoxes);
+   // console.log(inputBoxes);
    expect(inputBoxes.length).toBe(3);
 
 });

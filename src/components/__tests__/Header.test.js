@@ -1,0 +1,19 @@
+import { render, screen } from "@testing-library/react";
+import Header from "../Header";
+import { Provider } from "react-redux";
+import appStore from "../../utils/appStore";
+import { BrowserRouter } from "react-router-dom";
+import "@testing-library/jest-dom"
+
+describe("Header component", () => {
+
+    test("Should load header component with login button", () => {
+        render(<BrowserRouter><Provider store={appStore}><Header /></Provider></BrowserRouter>);
+
+        let button = screen.getByRole("button");
+
+        expect(button).toBeInTheDocument();
+
+    });
+
+})
