@@ -46,7 +46,7 @@ const Header = () => {
           </li>
           <li className="px-4 font-bold"><Link to="/cart">Cart({cart.length}) </Link> </li>
           <button
-            className="login-btn"
+            className="cursor-pointer"
             onClick={() => {
 
               btnName === "Login" ? setBtnName("Logout") : setBtnName("Login");
