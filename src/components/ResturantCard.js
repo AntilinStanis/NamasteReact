@@ -19,7 +19,8 @@ const ResturantCard = (props) => {
 };
 
 export const withPromotedLabel = (ResCard)=>{
-  console.log({ResturantCard});
+  // console.log({ResturantCard});
+  console.log({info : "withPromotedLabel function called"});
   return (props)=>{
 
        return <div>

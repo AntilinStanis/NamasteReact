@@ -1,0 +1,62 @@
+ {
+        "info": {
+            "id": "867611",
+            "name": "Hotel Malligai",
+            "city": "132",
+            "slugs": {
+                "restaurant": "hotel-malligai-vannarpettai-vannarpettai-2"
+            },
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/8/728f1e75-617e-450d-8d76-6dbe72f76778_867611.jpg",
+            "locality": "Vasantha Nager",
+            "areaName": "VannarPettai",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "South Indian",
+                "Fast Food",
+                "Cafe"
+            ],
+            "avgRating": 4.6,
+            "feeDetails": {
+                "restaurantId": "867611",
+                "title": "Delivery Charge",
+                "amount": "0"
+            },
+            "totalRatingsString": "767",
+            "sla": {
+                "deliveryTime": 16,
+                "minDeliveryTime": 15,
+                "maxDeliveryTime": 20,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 MINS",
+                "lastMileTravelString": "2.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2026-01-04 11:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹29",
+                "logoCtx": {
+                    "text": "BENEFITS"
+                }
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {},
+        "cta": {}
+    }
